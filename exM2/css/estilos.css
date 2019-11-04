@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta:200,400');
+/* font-family: 'Mukta', sans-serif; */
+
+#logo{
+	background-color:black;
+	display:flex;
+	justify-content:center;
+}
+#titulo h1{
+	font-family: 'Mukta', sans-serif;
+	font-size:40px;
+}
+#titulo div{
+	font-size:30px;
+}
+#titulo{
+	background-image: url("../img/fondo.jpg");
+	background-size:cover;
+    background-attachment: fixed;
+	color:white;
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:30px;
+}
+
+#cuadro{
+	display:flex;
+	justify-content:space-between;
+	margin-left:100px;
+	margin-right:100px;
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:50px;
+	padding:50px;
+}
+.caja{
+	border-top: 2px solid #6be7c9;
+	border-left: 2px solid #6be7c9;
+	padding:30px;
+	margin:20px;
+}
+.fas{
+	font-size:40px;
+}
+.fas:hover{
+	transform: rotate(45deg);
+}
+.caja:hover{
+	transform:scale(1.2, 1.2);
+	transition: 2s;
+}
+#footer{
+	text-align:center;
+}
